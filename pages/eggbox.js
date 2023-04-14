@@ -6,6 +6,8 @@ import { totalBlueEggsAtom } from './state'
 import { totalGoldEggsAtom } from './state'
 import { textAtom } from './state'
 
+export default function D() {}
+
 export function EggBox({ imageUrl }) {
     return (
         <div className="flex justify-center mt-9 border-solid border-0 border-indigo-300 rounded-md bg-cyan-50 drop-shadow-lg hover:bg-sky-100">
