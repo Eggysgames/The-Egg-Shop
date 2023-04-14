@@ -1,0 +1,27 @@
+@font-face {
+    font-family: 'Action-Comics';
+    src: url('/fonts/Action-Comics.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+  }
+
+  @font-face {
+    font-family: 'Bubbly';
+    src: url('/fonts/Bubbly.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+  }
+
+  @font-face {
+    font-family: 'Pixel2';
+    src: url('/fonts/Pixel2.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+  }
+
+  @font-face {
+    font-family: 'Talk-Comic';
+    src: url('/fonts/talkcomic.ttf') format('truetype');
+    font-weight: thin;
+    font-style: normal;
+  }
