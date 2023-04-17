@@ -47,7 +47,7 @@ export default function Home() {
                     {/* Eggs to Buy */}
                     <div className="grid grid-cols-3 gap-9 ">
                         <div>
-                            <EggBox imageUrl="/images/whiteEgg.png" />
+                            <EggBox imageUrl="/images/WhiteEgg.png" />
                             <BuyEggButton
                                 onClick={() => {
                                     updatetotalWhiteEggs(totalWhiteEggs + 1)
@@ -57,7 +57,7 @@ export default function Home() {
                         </div>
 
                         <div>
-                            <EggBox imageUrl="/images/blueEgg.png" />
+                            <EggBox imageUrl="/images/BlueEgg.png" />
                             <BuyEggButton
                                 onClick={() => {
                                     updatetotalBlueEggs(totalBlueEggs + 1)
@@ -67,7 +67,7 @@ export default function Home() {
                         </div>
 
                         <div>
-                            <EggBox imageUrl="/images/goldEgg.png" />
+                            <EggBox imageUrl="/images/GoldEgg.png" />
                             <BuyEggButton
                                 onClick={() => {
                                     updatetotalGoldEggs(totalGoldEggs + 1)
